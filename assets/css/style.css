@@ -83,6 +83,12 @@ header nav li{
     height: 40px;
 
 }
+
+.my-photo img {
+    height: 250px;
+    width: 200px;
+    
+}
 /* Projects page stlying starts */
 .projects-page {
     max-width: 100%;
@@ -92,14 +98,17 @@ header nav li{
     justify-content: center;
     background-color: var(--background-color2);  
 }
-.projects-page img {
+.projects-page .img1 img {
     
-    width: 350px;
+    width: 425px;
+    height:225px;
 }
-.projects-heading {
-    padding-right: 65px;
-    padding-bottom: 40px;
-    font-size: 36px;
+.projects-page .project2-img img{
+    width: 300px;
+    height: 200px;
+}
+.projects-page .projects-heading{
+    padding:0px 100px 80px 0px;
 }
 
 /* Projects page stlying ends */
