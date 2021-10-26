@@ -1,0 +1,132 @@
+/*Global Styling */
+:root {
+    --background-color:burlywood;
+    --main-color:rgb(14, 109, 27);
+    
+   
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    /*background-image:url("../images/bg-photo.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    
+/*this will change the font to Arial -> helvetica. Also it will turn the font color teal */
+}
+a{
+    text-decoration: none;
+}
+
+header {
+/* Padding = space around targeted subject. 20px to top and bottom, 35px to the left and right */   
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-color:var(--background-color);
+    
+}
+
+header a {
+    color:var(--primary-color);
+}
+
+nav li{
+    justify-content: space-evenly;
+    margin:0 20px 0 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+/*Hero section styling*/
+.hero-page
+{
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    justify-content: center;
+    background-color:burlywood;
+    background-size: cover;
+    
+}
+
+.hero-page.landing-page h2 {
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.hero-page .landing-page .heading {
+    font-weight: 350;
+}
+
+.hero-page .landing-page img {
+    width: 100%;
+    max-width: 48px;
+    height: 40px;
+
+}
+/* Projects page stlying starts */
+.projects-page {
+    max-width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;  
+}
+.projects-page img {
+    
+    width: 350px;
+}
+.projects-heading {
+    padding-right: 65px;
+    padding-bottom: 40px;
+    font-size: 36px;
+}
+
+/* Projects page stlying ends */
+
+/*About me page styling begins */
+.about-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: var(--primary-color);
+    padding-top: 75px;
+    padding-right: 85px;
+    padding-bottom:40px;
+    font-size: 36px;
+}
+
+.about-page {
+    background-color:var(--background-color);
+
+}
+.about-page .all-items  {
+    max-width: 90%;
+    height: 250px;
+    text-align: center;
+    margin-left: 35px;
+    color:white;
+    font-size:25px;
+
+    
+}
+/* About me page styling ends */
