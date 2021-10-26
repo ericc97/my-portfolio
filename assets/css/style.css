@@ -1,6 +1,7 @@
 /*Global Styling */
 :root {
     --background-color:burlywood;
+    --background-color2:cadetblue;
     --main-color:rgb(14, 109, 27);
     
    
@@ -41,7 +42,7 @@ header a {
     color:var(--primary-color);
 }
 
-nav li{
+header nav li{
     justify-content: space-evenly;
     margin:0 20px 0 20px;
     display: inline-block;
@@ -61,7 +62,7 @@ nav li{
     padding-top: 75px;
     padding-bottom: 100px;
     justify-content: center;
-    background-color:burlywood;
+    background-color:var(--background-color);
     background-size: cover;
     
 }
@@ -89,7 +90,7 @@ nav li{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cadetblue;  
+    background-color: var(--background-color2);  
 }
 .projects-page img {
     
@@ -130,3 +131,95 @@ nav li{
     
 }
 /* About me page styling ends */
+
+.contactMe-page {
+    background-color: var(--background-color2);
+    justify-content: center; 
+    height: 300px;
+    padding-left: 100px;
+    padding-top: 100px;
+    
+}
+.contactMe-heading {
+
+border-bottom: var(--primary-color);
+justify-content: center;
+font-size: 36px;
+}
+
+/* Media query for smaller desktop screens and smaller */
+@media screen and (max-width:980px) {  
+    header {
+        padding-bottom: 0px;
+        justify-content: center;
+        position: relative;
+        
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul img {
+        margin-top:20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav li a{
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:768px){
+    header {
+        padding-bottom: 0px;
+        justify-content: center;
+        position: relative;
+        
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul img {
+        margin-top:20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav li a{
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:575px){
+    header {
+        padding-bottom: 0px;
+        justify-content: center;
+        position: relative;
+        
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul img {
+        margin-top:20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav li a{
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+    }
+    
+}
